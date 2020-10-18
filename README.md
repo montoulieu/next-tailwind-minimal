@@ -8,7 +8,12 @@ PostCSS Nested is included for SCSS-like nesting in your css files.
 
 ## Getting Started
 
-First, run the development server:
+Run the followin create-next-app command in your terminal to clone the starter in your current directory.
+```bash
+npx create-next-app -e https://github.com/montoulieu/next-tailwind-minimal project-name
+```
+
+When that finishes, run the development server:
 
 ```bash
 npm run dev
@@ -16,9 +21,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser and get to work!
 
 ## Learn More
 
