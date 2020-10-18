@@ -8,8 +8,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="py-20 flex flex-1 flex-col justify-center items-center">
-        <h1 className="text-6xl">
+      <main className="w-full py-20 flex flex-1 flex-col justify-center items-center">
+        <h1 className="text-6xl text-center font-semibold mb-3">
           Welcome to <a href="https://nextjs.org" className="text-blue-600 hover:underline">Next.js</a> with <a href="https://tailwindcss.com" className="text-blue-600 hover:underline">Tailwind!</a>
         </h1>
 
@@ -18,7 +18,7 @@ export default function Home() {
           <code className="code">pages/index.js</code>
         </p>
 
-        <div className="flex items-center content-center flex-wrap max-w-screen-md mt-12">
+        <div className="sm:grid grid-rows-2 grid-cols-2 max-w-screen-md mt-12">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -54,7 +54,7 @@ export default function Home() {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-center items-center"
+          className="flex justify-center items-center mb-2"
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="ml-2 h-4" />
@@ -63,7 +63,7 @@ export default function Home() {
           href="https://github.com/montoulieu/next-tailwind-minimal"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-center items-center"
+          className="flex justify-center items-center text-sm hover:underline"
         >
           Next Tailwind Minimal created by Pieter Montoulieu
         </a>

@@ -9,9 +9,7 @@
 }
 
 .card {
-  flex-basis: 45%;
-
-  @apply m-4 p-5 text-left no-underline rounded-lg border border-gray-200 transition-colors duration-200;
+  @apply m-4 p-5 text-left no-underline rounded-lg border border-gray-200 transition-colors duration-200 block;
 
   h3 {
     @apply text-2xl mb-4 font-bold;
