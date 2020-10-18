@@ -1,5 +1,7 @@
 # Next Tailwind Minimal Starter
 
+![Image of Yaktocat](https://raw.githubusercontent.com/montoulieu/next-tailwind-minimal/master/public/next-tailwind-minimal.png)
+
 **Next Tailwind Minimal Starter** is a Create Next App starter for Next.js with Tailwind.
 
 It replicates the styles of the Next.js dev splash page with Tailwind and includes blank Tailwind and PostCSS configs for your customization.
