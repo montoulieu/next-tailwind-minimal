@@ -65,7 +65,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="flex justify-center items-center text-sm hover:underline"
         >
-          Next Tailwind Minimal created by Pieter Montoulieu
+          <strong className="mr-1">Next Tailwind Minimal</strong> created by <strong className="ml-1">Pieter Montoulieu</strong>
         </a>
       </footer>
     </div>
