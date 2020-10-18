@@ -4,7 +4,7 @@
 
 **Next Tailwind Minimal Starter** is a Create Next App starter for Next.js with Tailwind.
 
-It replicates the styles of the Next.js dev splash page with Tailwind and includes blank Tailwind and PostCSS configs for your customization.
+It replicates the styles of the Next.js dev splash page using Tailwind and includes basic Tailwind and PostCSS configs for your customization.
 
 PostCSS Nested is also included for convenient SCSS-like nesting in your CSS files.
 
